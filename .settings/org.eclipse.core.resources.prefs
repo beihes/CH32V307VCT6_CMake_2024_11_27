@@ -1,2 +1,4 @@
 eclipse.preferences.version=1
+encoding//App/Drivers/Led/led.h=UTF-8
+encoding//App/Drivers/drivers.h=UTF-8
 encoding/CMakeLists.txt=UTF-8

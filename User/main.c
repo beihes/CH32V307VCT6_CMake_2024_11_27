@@ -29,9 +29,15 @@ int main(void)
 	printf( "ChipID:%08lx\r\n", DBGMCU_GetCHIPID() );
 	printf("This is printf example\r\n");
 
+	Led_GPIO_Init();
+
+	GPIO_ResetBits(GPIOA,GPIO_Pin_0);
 	while(1)
     {
-
+		GPIO_SetBits(GPIOA,GPIO_Pin_0);
+	    Delay_Ms(500);
+	    GPIO_ResetBits(GPIOA,GPIO_Pin_0);
+	    Delay_Ms(500);
 	}
 }
 

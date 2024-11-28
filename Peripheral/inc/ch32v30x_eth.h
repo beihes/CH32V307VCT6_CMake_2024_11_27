@@ -956,8 +956,8 @@ Wake-UpFrame Filter Re7 : Filter3 CRC16 - Filter2 CRC16 */
 
 /******************************************************************************/
 /*
-/*                          ETH MMC Register
-/*
+                          ETH MMC Register
+*/
 /******************************************************************************/
 #define ETH_MMCCR_MCFHP      ((unsigned int)0x00000020)  /* MMC counter Full-Half preset */
 #define ETH_MMCCR_MCP        ((unsigned int)0x00000010)  /* MMC counter preset */
@@ -997,8 +997,8 @@ Wake-UpFrame Filter Re7 : Filter3 CRC16 - Filter2 CRC16 */
 
 /******************************************************************************/
 /*
-/*                          ETH Precise Clock Protocol Register
-/*
+                          ETH Precise Clock Protocol Register
+*/
 /******************************************************************************/
 #define ETH_PTPTSCR_TSCNT       ((unsigned int)0x00030000)  /* Time stamp clock node type */
 #define ETH_PTPTSSR_TSSMRME     ((unsigned int)0x00008000)  /* Time stamp snapshot for message relevant to master enable */
@@ -1040,8 +1040,8 @@ Wake-UpFrame Filter Re7 : Filter3 CRC16 - Filter2 CRC16 */
 
 /******************************************************************************/
 /*
-/*                       ETH DMA Register
-/*
+                       ETH DMA Register
+*/
 /******************************************************************************/
 #define ETH_DMABMR_AAB       ((unsigned int)0x02000000)  /* Address-Aligned beats */
 #define ETH_DMABMR_FPM        ((unsigned int)0x01000000)  /* 4xPBL mode */

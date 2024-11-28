@@ -29,7 +29,7 @@ else ()
 endif ()
 
 # 项目设置
-project(CH32V307VCT6_2024_11_27 C CXX ASM)
+project(CH32V307VCT6_CMake_2024_11_27 C CXX ASM)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_C_STANDARD 11)
 
@@ -56,6 +56,7 @@ add_compile_options(-Wall)
 
 # 头文件路径
 include_directories(App
+                    App/Drivers/Led
                     App/Drivers
                     CMyLib
                     CMyLib/Define
@@ -70,6 +71,7 @@ include_directories(App
 
 # 源码文件
 file(GLOB_RECURSE SOURCES 
+                "App/Drivers/Led/*.c"
                 "CMyLib/*.c" 
                 "CMyLib/Define/*.c"
                 "CMyLib/Src/*.c"

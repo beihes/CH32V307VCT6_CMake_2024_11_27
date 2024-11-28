@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/all
+all: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/clean
+clean: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir
+# Target rules for target CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir
 
 # All Build rule for target.
-CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35 "Built target CH32V307VCT6_2024_11_27.elf"
-.PHONY : CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/all
+CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36 "Built target CH32V307VCT6_CMake_2024_11_27.elf"
+.PHONY : CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles 35
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/all
+CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles 36
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles 0
-.PHONY : CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/rule
+.PHONY : CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/rule
 
 # Convenience name for target.
-CH32V307VCT6_2024_11_27.elf: CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/rule
-.PHONY : CH32V307VCT6_2024_11_27.elf
+CH32V307VCT6_CMake_2024_11_27.elf: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/rule
+.PHONY : CH32V307VCT6_CMake_2024_11_27.elf
 
 # clean rule for target.
-CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/clean
-.PHONY : CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/clean
+CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/clean
+.PHONY : CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

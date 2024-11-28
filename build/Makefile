@@ -117,24 +117,48 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named CH32V307VCT6_2024_11_27.elf
+# Target rules for targets named CH32V307VCT6_CMake_2024_11_27.elf
 
 # Build rule for target.
-CH32V307VCT6_2024_11_27.elf: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CH32V307VCT6_2024_11_27.elf
-.PHONY : CH32V307VCT6_2024_11_27.elf
+CH32V307VCT6_CMake_2024_11_27.elf: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CH32V307VCT6_CMake_2024_11_27.elf
+.PHONY : CH32V307VCT6_CMake_2024_11_27.elf
 
 # fast build rule for target.
-CH32V307VCT6_2024_11_27.elf/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build
-.PHONY : CH32V307VCT6_2024_11_27.elf/fast
+CH32V307VCT6_CMake_2024_11_27.elf/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build
+.PHONY : CH32V307VCT6_CMake_2024_11_27.elf/fast
+
+App/Drivers/Led/led.obj: App/Drivers/Led/led.c.obj
+.PHONY : App/Drivers/Led/led.obj
+
+# target to build an object file
+App/Drivers/Led/led.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/Led/led.c.obj
+.PHONY : App/Drivers/Led/led.c.obj
+
+App/Drivers/Led/led.i: App/Drivers/Led/led.c.i
+.PHONY : App/Drivers/Led/led.i
+
+# target to preprocess a source file
+App/Drivers/Led/led.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/Led/led.c.i
+.PHONY : App/Drivers/Led/led.c.i
+
+App/Drivers/Led/led.s: App/Drivers/Led/led.c.s
+.PHONY : App/Drivers/Led/led.s
+
+# target to generate assembly for a file
+App/Drivers/Led/led.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/Led/led.c.s
+.PHONY : App/Drivers/Led/led.c.s
 
 CMyLib/Src/cJSON.obj: CMyLib/Src/cJSON.c.obj
 .PHONY : CMyLib/Src/cJSON.obj
 
 # target to build an object file
 CMyLib/Src/cJSON.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/CMyLib/Src/cJSON.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/CMyLib/Src/cJSON.c.obj
 .PHONY : CMyLib/Src/cJSON.c.obj
 
 CMyLib/Src/cJSON.i: CMyLib/Src/cJSON.c.i
@@ -142,7 +166,7 @@ CMyLib/Src/cJSON.i: CMyLib/Src/cJSON.c.i
 
 # target to preprocess a source file
 CMyLib/Src/cJSON.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/CMyLib/Src/cJSON.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/CMyLib/Src/cJSON.c.i
 .PHONY : CMyLib/Src/cJSON.c.i
 
 CMyLib/Src/cJSON.s: CMyLib/Src/cJSON.c.s
@@ -150,7 +174,7 @@ CMyLib/Src/cJSON.s: CMyLib/Src/cJSON.c.s
 
 # target to generate assembly for a file
 CMyLib/Src/cJSON.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/CMyLib/Src/cJSON.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/CMyLib/Src/cJSON.c.s
 .PHONY : CMyLib/Src/cJSON.c.s
 
 CMyLib/cMyLib.obj: CMyLib/cMyLib.c.obj
@@ -158,7 +182,7 @@ CMyLib/cMyLib.obj: CMyLib/cMyLib.c.obj
 
 # target to build an object file
 CMyLib/cMyLib.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/CMyLib/cMyLib.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/CMyLib/cMyLib.c.obj
 .PHONY : CMyLib/cMyLib.c.obj
 
 CMyLib/cMyLib.i: CMyLib/cMyLib.c.i
@@ -166,7 +190,7 @@ CMyLib/cMyLib.i: CMyLib/cMyLib.c.i
 
 # target to preprocess a source file
 CMyLib/cMyLib.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/CMyLib/cMyLib.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/CMyLib/cMyLib.c.i
 .PHONY : CMyLib/cMyLib.c.i
 
 CMyLib/cMyLib.s: CMyLib/cMyLib.c.s
@@ -174,7 +198,7 @@ CMyLib/cMyLib.s: CMyLib/cMyLib.c.s
 
 # target to generate assembly for a file
 CMyLib/cMyLib.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/CMyLib/cMyLib.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/CMyLib/cMyLib.c.s
 .PHONY : CMyLib/cMyLib.c.s
 
 Core/core_riscv.obj: Core/core_riscv.c.obj
@@ -182,7 +206,7 @@ Core/core_riscv.obj: Core/core_riscv.c.obj
 
 # target to build an object file
 Core/core_riscv.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Core/core_riscv.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Core/core_riscv.c.obj
 .PHONY : Core/core_riscv.c.obj
 
 Core/core_riscv.i: Core/core_riscv.c.i
@@ -190,7 +214,7 @@ Core/core_riscv.i: Core/core_riscv.c.i
 
 # target to preprocess a source file
 Core/core_riscv.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Core/core_riscv.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Core/core_riscv.c.i
 .PHONY : Core/core_riscv.c.i
 
 Core/core_riscv.s: Core/core_riscv.c.s
@@ -198,7 +222,7 @@ Core/core_riscv.s: Core/core_riscv.c.s
 
 # target to generate assembly for a file
 Core/core_riscv.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Core/core_riscv.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Core/core_riscv.c.s
 .PHONY : Core/core_riscv.c.s
 
 Debug/debug.obj: Debug/debug.c.obj
@@ -206,7 +230,7 @@ Debug/debug.obj: Debug/debug.c.obj
 
 # target to build an object file
 Debug/debug.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Debug/debug.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Debug/debug.c.obj
 .PHONY : Debug/debug.c.obj
 
 Debug/debug.i: Debug/debug.c.i
@@ -214,7 +238,7 @@ Debug/debug.i: Debug/debug.c.i
 
 # target to preprocess a source file
 Debug/debug.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Debug/debug.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Debug/debug.c.i
 .PHONY : Debug/debug.c.i
 
 Debug/debug.s: Debug/debug.c.s
@@ -222,7 +246,7 @@ Debug/debug.s: Debug/debug.c.s
 
 # target to generate assembly for a file
 Debug/debug.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Debug/debug.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Debug/debug.c.s
 .PHONY : Debug/debug.c.s
 
 Peripheral/src/ch32v30x_adc.obj: Peripheral/src/ch32v30x_adc.c.obj
@@ -230,7 +254,7 @@ Peripheral/src/ch32v30x_adc.obj: Peripheral/src/ch32v30x_adc.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_adc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_adc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_adc.c.obj
 .PHONY : Peripheral/src/ch32v30x_adc.c.obj
 
 Peripheral/src/ch32v30x_adc.i: Peripheral/src/ch32v30x_adc.c.i
@@ -238,7 +262,7 @@ Peripheral/src/ch32v30x_adc.i: Peripheral/src/ch32v30x_adc.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_adc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_adc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_adc.c.i
 .PHONY : Peripheral/src/ch32v30x_adc.c.i
 
 Peripheral/src/ch32v30x_adc.s: Peripheral/src/ch32v30x_adc.c.s
@@ -246,7 +270,7 @@ Peripheral/src/ch32v30x_adc.s: Peripheral/src/ch32v30x_adc.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_adc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_adc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_adc.c.s
 .PHONY : Peripheral/src/ch32v30x_adc.c.s
 
 Peripheral/src/ch32v30x_bkp.obj: Peripheral/src/ch32v30x_bkp.c.obj
@@ -254,7 +278,7 @@ Peripheral/src/ch32v30x_bkp.obj: Peripheral/src/ch32v30x_bkp.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_bkp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_bkp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_bkp.c.obj
 .PHONY : Peripheral/src/ch32v30x_bkp.c.obj
 
 Peripheral/src/ch32v30x_bkp.i: Peripheral/src/ch32v30x_bkp.c.i
@@ -262,7 +286,7 @@ Peripheral/src/ch32v30x_bkp.i: Peripheral/src/ch32v30x_bkp.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_bkp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_bkp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_bkp.c.i
 .PHONY : Peripheral/src/ch32v30x_bkp.c.i
 
 Peripheral/src/ch32v30x_bkp.s: Peripheral/src/ch32v30x_bkp.c.s
@@ -270,7 +294,7 @@ Peripheral/src/ch32v30x_bkp.s: Peripheral/src/ch32v30x_bkp.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_bkp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_bkp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_bkp.c.s
 .PHONY : Peripheral/src/ch32v30x_bkp.c.s
 
 Peripheral/src/ch32v30x_can.obj: Peripheral/src/ch32v30x_can.c.obj
@@ -278,7 +302,7 @@ Peripheral/src/ch32v30x_can.obj: Peripheral/src/ch32v30x_can.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_can.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_can.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_can.c.obj
 .PHONY : Peripheral/src/ch32v30x_can.c.obj
 
 Peripheral/src/ch32v30x_can.i: Peripheral/src/ch32v30x_can.c.i
@@ -286,7 +310,7 @@ Peripheral/src/ch32v30x_can.i: Peripheral/src/ch32v30x_can.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_can.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_can.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_can.c.i
 .PHONY : Peripheral/src/ch32v30x_can.c.i
 
 Peripheral/src/ch32v30x_can.s: Peripheral/src/ch32v30x_can.c.s
@@ -294,7 +318,7 @@ Peripheral/src/ch32v30x_can.s: Peripheral/src/ch32v30x_can.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_can.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_can.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_can.c.s
 .PHONY : Peripheral/src/ch32v30x_can.c.s
 
 Peripheral/src/ch32v30x_crc.obj: Peripheral/src/ch32v30x_crc.c.obj
@@ -302,7 +326,7 @@ Peripheral/src/ch32v30x_crc.obj: Peripheral/src/ch32v30x_crc.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_crc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_crc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_crc.c.obj
 .PHONY : Peripheral/src/ch32v30x_crc.c.obj
 
 Peripheral/src/ch32v30x_crc.i: Peripheral/src/ch32v30x_crc.c.i
@@ -310,7 +334,7 @@ Peripheral/src/ch32v30x_crc.i: Peripheral/src/ch32v30x_crc.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_crc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_crc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_crc.c.i
 .PHONY : Peripheral/src/ch32v30x_crc.c.i
 
 Peripheral/src/ch32v30x_crc.s: Peripheral/src/ch32v30x_crc.c.s
@@ -318,7 +342,7 @@ Peripheral/src/ch32v30x_crc.s: Peripheral/src/ch32v30x_crc.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_crc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_crc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_crc.c.s
 .PHONY : Peripheral/src/ch32v30x_crc.c.s
 
 Peripheral/src/ch32v30x_dac.obj: Peripheral/src/ch32v30x_dac.c.obj
@@ -326,7 +350,7 @@ Peripheral/src/ch32v30x_dac.obj: Peripheral/src/ch32v30x_dac.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_dac.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dac.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dac.c.obj
 .PHONY : Peripheral/src/ch32v30x_dac.c.obj
 
 Peripheral/src/ch32v30x_dac.i: Peripheral/src/ch32v30x_dac.c.i
@@ -334,7 +358,7 @@ Peripheral/src/ch32v30x_dac.i: Peripheral/src/ch32v30x_dac.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_dac.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dac.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dac.c.i
 .PHONY : Peripheral/src/ch32v30x_dac.c.i
 
 Peripheral/src/ch32v30x_dac.s: Peripheral/src/ch32v30x_dac.c.s
@@ -342,7 +366,7 @@ Peripheral/src/ch32v30x_dac.s: Peripheral/src/ch32v30x_dac.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_dac.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dac.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dac.c.s
 .PHONY : Peripheral/src/ch32v30x_dac.c.s
 
 Peripheral/src/ch32v30x_dbgmcu.obj: Peripheral/src/ch32v30x_dbgmcu.c.obj
@@ -350,7 +374,7 @@ Peripheral/src/ch32v30x_dbgmcu.obj: Peripheral/src/ch32v30x_dbgmcu.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_dbgmcu.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dbgmcu.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dbgmcu.c.obj
 .PHONY : Peripheral/src/ch32v30x_dbgmcu.c.obj
 
 Peripheral/src/ch32v30x_dbgmcu.i: Peripheral/src/ch32v30x_dbgmcu.c.i
@@ -358,7 +382,7 @@ Peripheral/src/ch32v30x_dbgmcu.i: Peripheral/src/ch32v30x_dbgmcu.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_dbgmcu.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dbgmcu.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dbgmcu.c.i
 .PHONY : Peripheral/src/ch32v30x_dbgmcu.c.i
 
 Peripheral/src/ch32v30x_dbgmcu.s: Peripheral/src/ch32v30x_dbgmcu.c.s
@@ -366,7 +390,7 @@ Peripheral/src/ch32v30x_dbgmcu.s: Peripheral/src/ch32v30x_dbgmcu.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_dbgmcu.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dbgmcu.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dbgmcu.c.s
 .PHONY : Peripheral/src/ch32v30x_dbgmcu.c.s
 
 Peripheral/src/ch32v30x_dma.obj: Peripheral/src/ch32v30x_dma.c.obj
@@ -374,7 +398,7 @@ Peripheral/src/ch32v30x_dma.obj: Peripheral/src/ch32v30x_dma.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_dma.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dma.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dma.c.obj
 .PHONY : Peripheral/src/ch32v30x_dma.c.obj
 
 Peripheral/src/ch32v30x_dma.i: Peripheral/src/ch32v30x_dma.c.i
@@ -382,7 +406,7 @@ Peripheral/src/ch32v30x_dma.i: Peripheral/src/ch32v30x_dma.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_dma.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dma.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dma.c.i
 .PHONY : Peripheral/src/ch32v30x_dma.c.i
 
 Peripheral/src/ch32v30x_dma.s: Peripheral/src/ch32v30x_dma.c.s
@@ -390,7 +414,7 @@ Peripheral/src/ch32v30x_dma.s: Peripheral/src/ch32v30x_dma.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_dma.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dma.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dma.c.s
 .PHONY : Peripheral/src/ch32v30x_dma.c.s
 
 Peripheral/src/ch32v30x_dvp.obj: Peripheral/src/ch32v30x_dvp.c.obj
@@ -398,7 +422,7 @@ Peripheral/src/ch32v30x_dvp.obj: Peripheral/src/ch32v30x_dvp.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_dvp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dvp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dvp.c.obj
 .PHONY : Peripheral/src/ch32v30x_dvp.c.obj
 
 Peripheral/src/ch32v30x_dvp.i: Peripheral/src/ch32v30x_dvp.c.i
@@ -406,7 +430,7 @@ Peripheral/src/ch32v30x_dvp.i: Peripheral/src/ch32v30x_dvp.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_dvp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dvp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dvp.c.i
 .PHONY : Peripheral/src/ch32v30x_dvp.c.i
 
 Peripheral/src/ch32v30x_dvp.s: Peripheral/src/ch32v30x_dvp.c.s
@@ -414,7 +438,7 @@ Peripheral/src/ch32v30x_dvp.s: Peripheral/src/ch32v30x_dvp.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_dvp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dvp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dvp.c.s
 .PHONY : Peripheral/src/ch32v30x_dvp.c.s
 
 Peripheral/src/ch32v30x_eth.obj: Peripheral/src/ch32v30x_eth.c.obj
@@ -422,7 +446,7 @@ Peripheral/src/ch32v30x_eth.obj: Peripheral/src/ch32v30x_eth.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_eth.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_eth.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_eth.c.obj
 .PHONY : Peripheral/src/ch32v30x_eth.c.obj
 
 Peripheral/src/ch32v30x_eth.i: Peripheral/src/ch32v30x_eth.c.i
@@ -430,7 +454,7 @@ Peripheral/src/ch32v30x_eth.i: Peripheral/src/ch32v30x_eth.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_eth.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_eth.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_eth.c.i
 .PHONY : Peripheral/src/ch32v30x_eth.c.i
 
 Peripheral/src/ch32v30x_eth.s: Peripheral/src/ch32v30x_eth.c.s
@@ -438,7 +462,7 @@ Peripheral/src/ch32v30x_eth.s: Peripheral/src/ch32v30x_eth.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_eth.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_eth.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_eth.c.s
 .PHONY : Peripheral/src/ch32v30x_eth.c.s
 
 Peripheral/src/ch32v30x_exti.obj: Peripheral/src/ch32v30x_exti.c.obj
@@ -446,7 +470,7 @@ Peripheral/src/ch32v30x_exti.obj: Peripheral/src/ch32v30x_exti.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_exti.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_exti.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_exti.c.obj
 .PHONY : Peripheral/src/ch32v30x_exti.c.obj
 
 Peripheral/src/ch32v30x_exti.i: Peripheral/src/ch32v30x_exti.c.i
@@ -454,7 +478,7 @@ Peripheral/src/ch32v30x_exti.i: Peripheral/src/ch32v30x_exti.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_exti.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_exti.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_exti.c.i
 .PHONY : Peripheral/src/ch32v30x_exti.c.i
 
 Peripheral/src/ch32v30x_exti.s: Peripheral/src/ch32v30x_exti.c.s
@@ -462,7 +486,7 @@ Peripheral/src/ch32v30x_exti.s: Peripheral/src/ch32v30x_exti.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_exti.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_exti.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_exti.c.s
 .PHONY : Peripheral/src/ch32v30x_exti.c.s
 
 Peripheral/src/ch32v30x_flash.obj: Peripheral/src/ch32v30x_flash.c.obj
@@ -470,7 +494,7 @@ Peripheral/src/ch32v30x_flash.obj: Peripheral/src/ch32v30x_flash.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_flash.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_flash.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_flash.c.obj
 .PHONY : Peripheral/src/ch32v30x_flash.c.obj
 
 Peripheral/src/ch32v30x_flash.i: Peripheral/src/ch32v30x_flash.c.i
@@ -478,7 +502,7 @@ Peripheral/src/ch32v30x_flash.i: Peripheral/src/ch32v30x_flash.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_flash.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_flash.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_flash.c.i
 .PHONY : Peripheral/src/ch32v30x_flash.c.i
 
 Peripheral/src/ch32v30x_flash.s: Peripheral/src/ch32v30x_flash.c.s
@@ -486,7 +510,7 @@ Peripheral/src/ch32v30x_flash.s: Peripheral/src/ch32v30x_flash.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_flash.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_flash.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_flash.c.s
 .PHONY : Peripheral/src/ch32v30x_flash.c.s
 
 Peripheral/src/ch32v30x_fsmc.obj: Peripheral/src/ch32v30x_fsmc.c.obj
@@ -494,7 +518,7 @@ Peripheral/src/ch32v30x_fsmc.obj: Peripheral/src/ch32v30x_fsmc.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_fsmc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_fsmc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_fsmc.c.obj
 .PHONY : Peripheral/src/ch32v30x_fsmc.c.obj
 
 Peripheral/src/ch32v30x_fsmc.i: Peripheral/src/ch32v30x_fsmc.c.i
@@ -502,7 +526,7 @@ Peripheral/src/ch32v30x_fsmc.i: Peripheral/src/ch32v30x_fsmc.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_fsmc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_fsmc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_fsmc.c.i
 .PHONY : Peripheral/src/ch32v30x_fsmc.c.i
 
 Peripheral/src/ch32v30x_fsmc.s: Peripheral/src/ch32v30x_fsmc.c.s
@@ -510,7 +534,7 @@ Peripheral/src/ch32v30x_fsmc.s: Peripheral/src/ch32v30x_fsmc.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_fsmc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_fsmc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_fsmc.c.s
 .PHONY : Peripheral/src/ch32v30x_fsmc.c.s
 
 Peripheral/src/ch32v30x_gpio.obj: Peripheral/src/ch32v30x_gpio.c.obj
@@ -518,7 +542,7 @@ Peripheral/src/ch32v30x_gpio.obj: Peripheral/src/ch32v30x_gpio.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_gpio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_gpio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_gpio.c.obj
 .PHONY : Peripheral/src/ch32v30x_gpio.c.obj
 
 Peripheral/src/ch32v30x_gpio.i: Peripheral/src/ch32v30x_gpio.c.i
@@ -526,7 +550,7 @@ Peripheral/src/ch32v30x_gpio.i: Peripheral/src/ch32v30x_gpio.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_gpio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_gpio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_gpio.c.i
 .PHONY : Peripheral/src/ch32v30x_gpio.c.i
 
 Peripheral/src/ch32v30x_gpio.s: Peripheral/src/ch32v30x_gpio.c.s
@@ -534,7 +558,7 @@ Peripheral/src/ch32v30x_gpio.s: Peripheral/src/ch32v30x_gpio.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_gpio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_gpio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_gpio.c.s
 .PHONY : Peripheral/src/ch32v30x_gpio.c.s
 
 Peripheral/src/ch32v30x_i2c.obj: Peripheral/src/ch32v30x_i2c.c.obj
@@ -542,7 +566,7 @@ Peripheral/src/ch32v30x_i2c.obj: Peripheral/src/ch32v30x_i2c.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_i2c.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_i2c.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_i2c.c.obj
 .PHONY : Peripheral/src/ch32v30x_i2c.c.obj
 
 Peripheral/src/ch32v30x_i2c.i: Peripheral/src/ch32v30x_i2c.c.i
@@ -550,7 +574,7 @@ Peripheral/src/ch32v30x_i2c.i: Peripheral/src/ch32v30x_i2c.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_i2c.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_i2c.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_i2c.c.i
 .PHONY : Peripheral/src/ch32v30x_i2c.c.i
 
 Peripheral/src/ch32v30x_i2c.s: Peripheral/src/ch32v30x_i2c.c.s
@@ -558,7 +582,7 @@ Peripheral/src/ch32v30x_i2c.s: Peripheral/src/ch32v30x_i2c.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_i2c.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_i2c.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_i2c.c.s
 .PHONY : Peripheral/src/ch32v30x_i2c.c.s
 
 Peripheral/src/ch32v30x_iwdg.obj: Peripheral/src/ch32v30x_iwdg.c.obj
@@ -566,7 +590,7 @@ Peripheral/src/ch32v30x_iwdg.obj: Peripheral/src/ch32v30x_iwdg.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_iwdg.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_iwdg.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_iwdg.c.obj
 .PHONY : Peripheral/src/ch32v30x_iwdg.c.obj
 
 Peripheral/src/ch32v30x_iwdg.i: Peripheral/src/ch32v30x_iwdg.c.i
@@ -574,7 +598,7 @@ Peripheral/src/ch32v30x_iwdg.i: Peripheral/src/ch32v30x_iwdg.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_iwdg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_iwdg.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_iwdg.c.i
 .PHONY : Peripheral/src/ch32v30x_iwdg.c.i
 
 Peripheral/src/ch32v30x_iwdg.s: Peripheral/src/ch32v30x_iwdg.c.s
@@ -582,7 +606,7 @@ Peripheral/src/ch32v30x_iwdg.s: Peripheral/src/ch32v30x_iwdg.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_iwdg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_iwdg.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_iwdg.c.s
 .PHONY : Peripheral/src/ch32v30x_iwdg.c.s
 
 Peripheral/src/ch32v30x_misc.obj: Peripheral/src/ch32v30x_misc.c.obj
@@ -590,7 +614,7 @@ Peripheral/src/ch32v30x_misc.obj: Peripheral/src/ch32v30x_misc.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_misc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_misc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_misc.c.obj
 .PHONY : Peripheral/src/ch32v30x_misc.c.obj
 
 Peripheral/src/ch32v30x_misc.i: Peripheral/src/ch32v30x_misc.c.i
@@ -598,7 +622,7 @@ Peripheral/src/ch32v30x_misc.i: Peripheral/src/ch32v30x_misc.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_misc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_misc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_misc.c.i
 .PHONY : Peripheral/src/ch32v30x_misc.c.i
 
 Peripheral/src/ch32v30x_misc.s: Peripheral/src/ch32v30x_misc.c.s
@@ -606,7 +630,7 @@ Peripheral/src/ch32v30x_misc.s: Peripheral/src/ch32v30x_misc.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_misc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_misc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_misc.c.s
 .PHONY : Peripheral/src/ch32v30x_misc.c.s
 
 Peripheral/src/ch32v30x_opa.obj: Peripheral/src/ch32v30x_opa.c.obj
@@ -614,7 +638,7 @@ Peripheral/src/ch32v30x_opa.obj: Peripheral/src/ch32v30x_opa.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_opa.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_opa.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_opa.c.obj
 .PHONY : Peripheral/src/ch32v30x_opa.c.obj
 
 Peripheral/src/ch32v30x_opa.i: Peripheral/src/ch32v30x_opa.c.i
@@ -622,7 +646,7 @@ Peripheral/src/ch32v30x_opa.i: Peripheral/src/ch32v30x_opa.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_opa.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_opa.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_opa.c.i
 .PHONY : Peripheral/src/ch32v30x_opa.c.i
 
 Peripheral/src/ch32v30x_opa.s: Peripheral/src/ch32v30x_opa.c.s
@@ -630,7 +654,7 @@ Peripheral/src/ch32v30x_opa.s: Peripheral/src/ch32v30x_opa.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_opa.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_opa.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_opa.c.s
 .PHONY : Peripheral/src/ch32v30x_opa.c.s
 
 Peripheral/src/ch32v30x_pwr.obj: Peripheral/src/ch32v30x_pwr.c.obj
@@ -638,7 +662,7 @@ Peripheral/src/ch32v30x_pwr.obj: Peripheral/src/ch32v30x_pwr.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_pwr.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_pwr.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_pwr.c.obj
 .PHONY : Peripheral/src/ch32v30x_pwr.c.obj
 
 Peripheral/src/ch32v30x_pwr.i: Peripheral/src/ch32v30x_pwr.c.i
@@ -646,7 +670,7 @@ Peripheral/src/ch32v30x_pwr.i: Peripheral/src/ch32v30x_pwr.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_pwr.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_pwr.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_pwr.c.i
 .PHONY : Peripheral/src/ch32v30x_pwr.c.i
 
 Peripheral/src/ch32v30x_pwr.s: Peripheral/src/ch32v30x_pwr.c.s
@@ -654,7 +678,7 @@ Peripheral/src/ch32v30x_pwr.s: Peripheral/src/ch32v30x_pwr.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_pwr.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_pwr.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_pwr.c.s
 .PHONY : Peripheral/src/ch32v30x_pwr.c.s
 
 Peripheral/src/ch32v30x_rcc.obj: Peripheral/src/ch32v30x_rcc.c.obj
@@ -662,7 +686,7 @@ Peripheral/src/ch32v30x_rcc.obj: Peripheral/src/ch32v30x_rcc.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_rcc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rcc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rcc.c.obj
 .PHONY : Peripheral/src/ch32v30x_rcc.c.obj
 
 Peripheral/src/ch32v30x_rcc.i: Peripheral/src/ch32v30x_rcc.c.i
@@ -670,7 +694,7 @@ Peripheral/src/ch32v30x_rcc.i: Peripheral/src/ch32v30x_rcc.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_rcc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rcc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rcc.c.i
 .PHONY : Peripheral/src/ch32v30x_rcc.c.i
 
 Peripheral/src/ch32v30x_rcc.s: Peripheral/src/ch32v30x_rcc.c.s
@@ -678,7 +702,7 @@ Peripheral/src/ch32v30x_rcc.s: Peripheral/src/ch32v30x_rcc.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_rcc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rcc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rcc.c.s
 .PHONY : Peripheral/src/ch32v30x_rcc.c.s
 
 Peripheral/src/ch32v30x_rng.obj: Peripheral/src/ch32v30x_rng.c.obj
@@ -686,7 +710,7 @@ Peripheral/src/ch32v30x_rng.obj: Peripheral/src/ch32v30x_rng.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_rng.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rng.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rng.c.obj
 .PHONY : Peripheral/src/ch32v30x_rng.c.obj
 
 Peripheral/src/ch32v30x_rng.i: Peripheral/src/ch32v30x_rng.c.i
@@ -694,7 +718,7 @@ Peripheral/src/ch32v30x_rng.i: Peripheral/src/ch32v30x_rng.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_rng.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rng.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rng.c.i
 .PHONY : Peripheral/src/ch32v30x_rng.c.i
 
 Peripheral/src/ch32v30x_rng.s: Peripheral/src/ch32v30x_rng.c.s
@@ -702,7 +726,7 @@ Peripheral/src/ch32v30x_rng.s: Peripheral/src/ch32v30x_rng.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_rng.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rng.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rng.c.s
 .PHONY : Peripheral/src/ch32v30x_rng.c.s
 
 Peripheral/src/ch32v30x_rtc.obj: Peripheral/src/ch32v30x_rtc.c.obj
@@ -710,7 +734,7 @@ Peripheral/src/ch32v30x_rtc.obj: Peripheral/src/ch32v30x_rtc.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_rtc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rtc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rtc.c.obj
 .PHONY : Peripheral/src/ch32v30x_rtc.c.obj
 
 Peripheral/src/ch32v30x_rtc.i: Peripheral/src/ch32v30x_rtc.c.i
@@ -718,7 +742,7 @@ Peripheral/src/ch32v30x_rtc.i: Peripheral/src/ch32v30x_rtc.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_rtc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rtc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rtc.c.i
 .PHONY : Peripheral/src/ch32v30x_rtc.c.i
 
 Peripheral/src/ch32v30x_rtc.s: Peripheral/src/ch32v30x_rtc.c.s
@@ -726,7 +750,7 @@ Peripheral/src/ch32v30x_rtc.s: Peripheral/src/ch32v30x_rtc.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_rtc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rtc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rtc.c.s
 .PHONY : Peripheral/src/ch32v30x_rtc.c.s
 
 Peripheral/src/ch32v30x_sdio.obj: Peripheral/src/ch32v30x_sdio.c.obj
@@ -734,7 +758,7 @@ Peripheral/src/ch32v30x_sdio.obj: Peripheral/src/ch32v30x_sdio.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_sdio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_sdio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_sdio.c.obj
 .PHONY : Peripheral/src/ch32v30x_sdio.c.obj
 
 Peripheral/src/ch32v30x_sdio.i: Peripheral/src/ch32v30x_sdio.c.i
@@ -742,7 +766,7 @@ Peripheral/src/ch32v30x_sdio.i: Peripheral/src/ch32v30x_sdio.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_sdio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_sdio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_sdio.c.i
 .PHONY : Peripheral/src/ch32v30x_sdio.c.i
 
 Peripheral/src/ch32v30x_sdio.s: Peripheral/src/ch32v30x_sdio.c.s
@@ -750,7 +774,7 @@ Peripheral/src/ch32v30x_sdio.s: Peripheral/src/ch32v30x_sdio.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_sdio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_sdio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_sdio.c.s
 .PHONY : Peripheral/src/ch32v30x_sdio.c.s
 
 Peripheral/src/ch32v30x_spi.obj: Peripheral/src/ch32v30x_spi.c.obj
@@ -758,7 +782,7 @@ Peripheral/src/ch32v30x_spi.obj: Peripheral/src/ch32v30x_spi.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_spi.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_spi.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_spi.c.obj
 .PHONY : Peripheral/src/ch32v30x_spi.c.obj
 
 Peripheral/src/ch32v30x_spi.i: Peripheral/src/ch32v30x_spi.c.i
@@ -766,7 +790,7 @@ Peripheral/src/ch32v30x_spi.i: Peripheral/src/ch32v30x_spi.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_spi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_spi.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_spi.c.i
 .PHONY : Peripheral/src/ch32v30x_spi.c.i
 
 Peripheral/src/ch32v30x_spi.s: Peripheral/src/ch32v30x_spi.c.s
@@ -774,7 +798,7 @@ Peripheral/src/ch32v30x_spi.s: Peripheral/src/ch32v30x_spi.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_spi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_spi.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_spi.c.s
 .PHONY : Peripheral/src/ch32v30x_spi.c.s
 
 Peripheral/src/ch32v30x_tim.obj: Peripheral/src/ch32v30x_tim.c.obj
@@ -782,7 +806,7 @@ Peripheral/src/ch32v30x_tim.obj: Peripheral/src/ch32v30x_tim.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_tim.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_tim.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_tim.c.obj
 .PHONY : Peripheral/src/ch32v30x_tim.c.obj
 
 Peripheral/src/ch32v30x_tim.i: Peripheral/src/ch32v30x_tim.c.i
@@ -790,7 +814,7 @@ Peripheral/src/ch32v30x_tim.i: Peripheral/src/ch32v30x_tim.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_tim.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_tim.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_tim.c.i
 .PHONY : Peripheral/src/ch32v30x_tim.c.i
 
 Peripheral/src/ch32v30x_tim.s: Peripheral/src/ch32v30x_tim.c.s
@@ -798,7 +822,7 @@ Peripheral/src/ch32v30x_tim.s: Peripheral/src/ch32v30x_tim.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_tim.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_tim.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_tim.c.s
 .PHONY : Peripheral/src/ch32v30x_tim.c.s
 
 Peripheral/src/ch32v30x_usart.obj: Peripheral/src/ch32v30x_usart.c.obj
@@ -806,7 +830,7 @@ Peripheral/src/ch32v30x_usart.obj: Peripheral/src/ch32v30x_usart.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_usart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_usart.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_usart.c.obj
 .PHONY : Peripheral/src/ch32v30x_usart.c.obj
 
 Peripheral/src/ch32v30x_usart.i: Peripheral/src/ch32v30x_usart.c.i
@@ -814,7 +838,7 @@ Peripheral/src/ch32v30x_usart.i: Peripheral/src/ch32v30x_usart.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_usart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_usart.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_usart.c.i
 .PHONY : Peripheral/src/ch32v30x_usart.c.i
 
 Peripheral/src/ch32v30x_usart.s: Peripheral/src/ch32v30x_usart.c.s
@@ -822,7 +846,7 @@ Peripheral/src/ch32v30x_usart.s: Peripheral/src/ch32v30x_usart.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_usart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_usart.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_usart.c.s
 .PHONY : Peripheral/src/ch32v30x_usart.c.s
 
 Peripheral/src/ch32v30x_wwdg.obj: Peripheral/src/ch32v30x_wwdg.c.obj
@@ -830,7 +854,7 @@ Peripheral/src/ch32v30x_wwdg.obj: Peripheral/src/ch32v30x_wwdg.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_wwdg.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_wwdg.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_wwdg.c.obj
 .PHONY : Peripheral/src/ch32v30x_wwdg.c.obj
 
 Peripheral/src/ch32v30x_wwdg.i: Peripheral/src/ch32v30x_wwdg.c.i
@@ -838,7 +862,7 @@ Peripheral/src/ch32v30x_wwdg.i: Peripheral/src/ch32v30x_wwdg.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_wwdg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_wwdg.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_wwdg.c.i
 .PHONY : Peripheral/src/ch32v30x_wwdg.c.i
 
 Peripheral/src/ch32v30x_wwdg.s: Peripheral/src/ch32v30x_wwdg.c.s
@@ -846,7 +870,7 @@ Peripheral/src/ch32v30x_wwdg.s: Peripheral/src/ch32v30x_wwdg.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_wwdg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Peripheral/src/ch32v30x_wwdg.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_wwdg.c.s
 .PHONY : Peripheral/src/ch32v30x_wwdg.c.s
 
 Startup/startup_ch32v30x_D8C.obj: Startup/startup_ch32v30x_D8C.S.obj
@@ -854,7 +878,7 @@ Startup/startup_ch32v30x_D8C.obj: Startup/startup_ch32v30x_D8C.S.obj
 
 # target to build an object file
 Startup/startup_ch32v30x_D8C.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/Startup/startup_ch32v30x_D8C.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Startup/startup_ch32v30x_D8C.S.obj
 .PHONY : Startup/startup_ch32v30x_D8C.S.obj
 
 User/ch32v30x_it.obj: User/ch32v30x_it.c.obj
@@ -862,7 +886,7 @@ User/ch32v30x_it.obj: User/ch32v30x_it.c.obj
 
 # target to build an object file
 User/ch32v30x_it.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/User/ch32v30x_it.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/ch32v30x_it.c.obj
 .PHONY : User/ch32v30x_it.c.obj
 
 User/ch32v30x_it.i: User/ch32v30x_it.c.i
@@ -870,7 +894,7 @@ User/ch32v30x_it.i: User/ch32v30x_it.c.i
 
 # target to preprocess a source file
 User/ch32v30x_it.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/User/ch32v30x_it.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/ch32v30x_it.c.i
 .PHONY : User/ch32v30x_it.c.i
 
 User/ch32v30x_it.s: User/ch32v30x_it.c.s
@@ -878,7 +902,7 @@ User/ch32v30x_it.s: User/ch32v30x_it.c.s
 
 # target to generate assembly for a file
 User/ch32v30x_it.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/User/ch32v30x_it.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/ch32v30x_it.c.s
 .PHONY : User/ch32v30x_it.c.s
 
 User/main.obj: User/main.c.obj
@@ -886,7 +910,7 @@ User/main.obj: User/main.c.obj
 
 # target to build an object file
 User/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/User/main.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/main.c.obj
 .PHONY : User/main.c.obj
 
 User/main.i: User/main.c.i
@@ -894,7 +918,7 @@ User/main.i: User/main.c.i
 
 # target to preprocess a source file
 User/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/User/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/main.c.i
 .PHONY : User/main.c.i
 
 User/main.s: User/main.c.s
@@ -902,7 +926,7 @@ User/main.s: User/main.c.s
 
 # target to generate assembly for a file
 User/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/User/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/main.c.s
 .PHONY : User/main.c.s
 
 User/system_ch32v30x.obj: User/system_ch32v30x.c.obj
@@ -910,7 +934,7 @@ User/system_ch32v30x.obj: User/system_ch32v30x.c.obj
 
 # target to build an object file
 User/system_ch32v30x.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/User/system_ch32v30x.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/system_ch32v30x.c.obj
 .PHONY : User/system_ch32v30x.c.obj
 
 User/system_ch32v30x.i: User/system_ch32v30x.c.i
@@ -918,7 +942,7 @@ User/system_ch32v30x.i: User/system_ch32v30x.c.i
 
 # target to preprocess a source file
 User/system_ch32v30x.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/User/system_ch32v30x.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/system_ch32v30x.c.i
 .PHONY : User/system_ch32v30x.c.i
 
 User/system_ch32v30x.s: User/system_ch32v30x.c.s
@@ -926,7 +950,7 @@ User/system_ch32v30x.s: User/system_ch32v30x.c.s
 
 # target to generate assembly for a file
 User/system_ch32v30x.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir/User/system_ch32v30x.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/system_ch32v30x.c.s
 .PHONY : User/system_ch32v30x.c.s
 
 # Help Target
@@ -937,7 +961,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... CH32V307VCT6_2024_11_27.elf"
+	@echo "... CH32V307VCT6_CMake_2024_11_27.elf"
+	@echo "... App/Drivers/Led/led.obj"
+	@echo "... App/Drivers/Led/led.i"
+	@echo "... App/Drivers/Led/led.s"
 	@echo "... CMyLib/Src/cJSON.obj"
 	@echo "... CMyLib/Src/cJSON.i"
 	@echo "... CMyLib/Src/cJSON.s"
