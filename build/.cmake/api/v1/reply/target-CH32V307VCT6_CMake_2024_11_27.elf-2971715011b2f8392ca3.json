@@ -27,13 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 98,
-				"parent" : 0
-			},
-			{
-				"command" : 1,
-				"file" : 0,
-				"line" : 87,
+				"line" : 106,
 				"parent" : 0
 			},
 			{
@@ -43,33 +37,39 @@
 				"parent" : 0
 			},
 			{
-				"command" : 2,
+				"command" : 1,
 				"file" : 0,
-				"line" : 48,
+				"line" : 103,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 49,
+				"line" : 39,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 52,
+				"line" : 40,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 55,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 60,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 58,
+				"line" : 66,
 				"parent" : 0
 			}
 		]
@@ -80,7 +80,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-O3 -DNDEBUG -std=gnu11"
+					"fragment" : "-std=gnu11"
 				},
 				{
 					"backtrace" : 4,
@@ -128,7 +128,11 @@
 				},
 				{
 					"backtrace" : 6,
-					"fragment" : "-O2"
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-g"
 				},
 				{
 					"backtrace" : 7,
@@ -229,9 +233,6 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-O3 -DNDEBUG"
-				},
-				{
 					"backtrace" : 4,
 					"fragment" : "-march=rv32imafc"
 				},
@@ -277,7 +278,11 @@
 				},
 				{
 					"backtrace" : 6,
-					"fragment" : "-O2"
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-g"
 				},
 				{
 					"backtrace" : 7,
@@ -339,10 +344,6 @@
 	{
 		"commandFragments" : 
 		[
-			{
-				"fragment" : "-O3 -DNDEBUG",
-				"role" : "flags"
-			},
 			{
 				"fragment" : "",
 				"role" : "flags"

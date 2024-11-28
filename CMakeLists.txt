@@ -33,15 +33,6 @@ project(CH32V307VCT6_CMake_2024_11_27 C CXX ASM)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_C_STANDARD 11)
 
-if(NOT CMAKE_BUILD_TYPE)
-	set(CMAKE_BUILD_TYPE Release CACHE STRING "Build Type" FORCE)
-endif()
-message(STATUS "Build type:${CMAKE_BUILD_TYPE}")
-message(STATUS "Debug configuration:${CMAKE_CXX_FLAGS_DEBUG}")
-message(STATUS "release configuration:${CMAKE_CXX_FLAGS_RELEASE}")
-message(STATUS "release configuration with debug info:${CMAKE_CXX_FLAGS_RELWITHDEBINFO}")
-message(STATUS "minimal release configuration:${CMAKE_CXX_FLAGS_MINSIZEREL}")
-
 LINK_LIBRARIES(m)
 
 # 编译参数 一般不用改
@@ -49,7 +40,24 @@ add_compile_options(-march=rv32imafc -mabi=ilp32f -mcmodel=medany -msmall-data-l
 add_compile_options(-fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -fsingle-precision-constant)
 
 # 编译等级
-add_compile_options(-O2)
+message("CMAKE_BUILD_TYPE: " ${CMAKE_BUILD_TYPE})
+# 编译等级
+if ("${CMAKE_BUILD_TYPE}" STREQUAL "Release")
+    message(VERBOSE "Maximum optimization for speed")
+    add_compile_options(-O3)
+elseif ("${CMAKE_BUILD_TYPE}" STREQUAL "RelWithDebInfo")
+    message(VERBOSE "Maximum optimization for speed, debug info included")
+    add_compile_options(-O2 -g)
+elseif ("${CMAKE_BUILD_TYPE}" STREQUAL "MinSizeRel")
+    message(VERBOSE "Maximum optimization for size")
+    add_compile_options(-Os)
+else ()
+    message(VERBOSE "Minimal optimization, debug info included")
+    add_compile_options(-Og -g)
+endif ()
+
+# 编译信息等级
+add_compile_options(-Wall)
 
 # 编译信息等级
 add_compile_options(-Wall)
