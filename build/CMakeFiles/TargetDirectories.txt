@@ -1,0 +1,3 @@
+E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles/CH32V307VCT6_2024_11_27.elf.dir
+E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles/edit_cache.dir
+E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles/rebuild_cache.dir
