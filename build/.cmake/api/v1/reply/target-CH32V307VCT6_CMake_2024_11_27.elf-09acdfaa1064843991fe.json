@@ -12,6 +12,7 @@
 		[
 			"add_executable",
 			"add_link_options",
+			"target_link_libraries",
 			"add_compile_options",
 			"include_directories"
 		],
@@ -27,47 +28,53 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 106,
+				"line" : 108,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 95,
+				"line" : 97,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 103,
+				"line" : 105,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
+				"file" : 0,
+				"line" : 111,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
 				"file" : 0,
 				"line" : 39,
 				"parent" : 0
 			},
 			{
-				"command" : 2,
+				"command" : 3,
 				"file" : 0,
 				"line" : 40,
 				"parent" : 0
 			},
 			{
-				"command" : 2,
+				"command" : 3,
 				"file" : 0,
 				"line" : 56,
 				"parent" : 0
 			},
 			{
-				"command" : 2,
+				"command" : 3,
 				"file" : 0,
 				"line" : 60,
 				"parent" : 0
 			},
 			{
-				"command" : 3,
+				"command" : 4,
 				"file" : 0,
 				"line" : 66,
 				"parent" : 0
@@ -83,102 +90,106 @@
 					"fragment" : "-std=gnu11"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 5,
 					"fragment" : "-march=rv32imafc"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 5,
 					"fragment" : "-mabi=ilp32f"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 5,
 					"fragment" : "-mcmodel=medany"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 5,
 					"fragment" : "-msmall-data-limit=8"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 5,
 					"fragment" : "-mno-save-restore"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"fragment" : "-fmessage-length=0"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"fragment" : "-fsigned-char"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"fragment" : "-ffunction-sections"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"fragment" : "-fdata-sections"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"fragment" : "-fno-common"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"fragment" : "-fsingle-precision-constant"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
 					"fragment" : "-Og"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
 					"fragment" : "-g"
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 8,
 					"fragment" : "-Wall"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 8,
+					"backtrace" : 9,
 					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 9,
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App/Drivers/JY61P"
+				},
+				{
+					"backtrace" : 9,
 					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App/Drivers/Led"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 9,
 					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App/Drivers"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 9,
 					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/CMyLib"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 9,
 					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/CMyLib/Define"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 9,
 					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/CMyLib/Inc"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 9,
 					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Core"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 9,
 					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Debug"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 9,
 					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/inc"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 9,
 					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/User"
 				}
 			],
@@ -224,118 +235,125 @@
 				28,
 				29,
 				30,
+				31,
 				32,
 				33,
-				34
+				35,
+				36,
+				37
 			]
 		},
 		{
 			"compileCommandFragments" : 
 			[
 				{
-					"backtrace" : 4,
+					"backtrace" : 5,
 					"fragment" : "-march=rv32imafc"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 5,
 					"fragment" : "-mabi=ilp32f"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 5,
 					"fragment" : "-mcmodel=medany"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 5,
 					"fragment" : "-msmall-data-limit=8"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 5,
 					"fragment" : "-mno-save-restore"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"fragment" : "-fmessage-length=0"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"fragment" : "-fsigned-char"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"fragment" : "-ffunction-sections"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"fragment" : "-fdata-sections"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"fragment" : "-fno-common"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"fragment" : "-fsingle-precision-constant"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
 					"fragment" : "-Og"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
 					"fragment" : "-g"
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 8,
 					"fragment" : "-Wall"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 8,
+					"backtrace" : 9,
 					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 9,
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App/Drivers/JY61P"
+				},
+				{
+					"backtrace" : 9,
 					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App/Drivers/Led"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 9,
 					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App/Drivers"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 9,
 					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/CMyLib"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 9,
 					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/CMyLib/Define"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 9,
 					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/CMyLib/Inc"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 9,
 					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Core"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 9,
 					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Debug"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 9,
 					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/inc"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 9,
 					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/User"
 				}
 			],
 			"language" : "ASM",
 			"sourceIndexes" : 
 			[
-				31
+				34
 			]
 		}
 	],
@@ -407,6 +425,11 @@
 				"backtrace" : 1,
 				"fragment" : "-lm",
 				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lprintfloat",
+				"role" : "libraries"
 			}
 		],
 		"language" : "C"
@@ -455,22 +478,43 @@
 				28,
 				29,
 				30,
+				31,
 				32,
 				33,
-				34
+				35,
+				36,
+				37
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				31,
-				35
+				34,
+				38
 			]
 		}
 	],
 	"sources" : 
 	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "App/Drivers/JY61P/JY61P.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "App/Drivers/JY61P/JY61PSdk.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "App/Drivers/JY61P/usart2.c",
+			"sourceGroupIndex" : 0
+		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,

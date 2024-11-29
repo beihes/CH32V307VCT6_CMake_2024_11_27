@@ -28,16 +28,14 @@ int main(void)
 	printf("SystemClk:%ld\r\n",SystemCoreClock);
 	printf( "ChipID:%08lx\r\n", DBGMCU_GetCHIPID() );
 	printf("This is printf example\r\n");
+	printf("\t-->JY61P<--\r\n");
 
 	Led_GPIO_Init();
+	JY61P_Init();
 
-	GPIO_ResetBits(GPIOA,GPIO_Pin_0);
 	while(1)
     {
-		GPIO_SetBits(GPIOA,GPIO_Pin_0);
-	    Delay_Ms(500);
-	    GPIO_ResetBits(GPIOA,GPIO_Pin_0);
-	    Delay_Ms(500);
+		JY61P_Test();
 	}
 }
 

@@ -69,10 +69,52 @@ include CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
 
+CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61P.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
+CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61P.c.obj: E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App/Drivers/JY61P/JY61P.c
+CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61P.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61P.c.obj"
+	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61P.c.obj -MF CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61P.c.obj.d -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61P.c.obj -c E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App/Drivers/JY61P/JY61P.c
+
+CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61P.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61P.c.i"
+	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App/Drivers/JY61P/JY61P.c > CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61P.c.i
+
+CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61P.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61P.c.s"
+	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App/Drivers/JY61P/JY61P.c -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61P.c.s
+
+CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61PSdk.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
+CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61PSdk.c.obj: E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App/Drivers/JY61P/JY61PSdk.c
+CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61PSdk.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61PSdk.c.obj"
+	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61PSdk.c.obj -MF CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61PSdk.c.obj.d -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61PSdk.c.obj -c E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App/Drivers/JY61P/JY61PSdk.c
+
+CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61PSdk.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61PSdk.c.i"
+	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App/Drivers/JY61P/JY61PSdk.c > CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61PSdk.c.i
+
+CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61PSdk.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61PSdk.c.s"
+	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App/Drivers/JY61P/JY61PSdk.c -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61PSdk.c.s
+
+CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/usart2.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
+CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/usart2.c.obj: E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App/Drivers/JY61P/usart2.c
+CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/usart2.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/usart2.c.obj"
+	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/usart2.c.obj -MF CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/usart2.c.obj.d -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/usart2.c.obj -c E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App/Drivers/JY61P/usart2.c
+
+CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/usart2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/usart2.c.i"
+	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App/Drivers/JY61P/usart2.c > CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/usart2.c.i
+
+CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/usart2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/usart2.c.s"
+	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App/Drivers/JY61P/usart2.c -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/usart2.c.s
+
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/Led/led.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/Led/led.c.obj: E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App/Drivers/Led/led.c
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/Led/led.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/Led/led.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/Led/led.c.obj"
 	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/Led/led.c.obj -MF CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/Led/led.c.obj.d -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/Led/led.c.obj -c E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App/Drivers/Led/led.c
 
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/Led/led.c.i: cmake_force
@@ -86,7 +128,7 @@ CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/Led/led.c.s: cmake_
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/CMyLib/Src/cJSON.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/CMyLib/Src/cJSON.c.obj: E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/CMyLib/Src/cJSON.c
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/CMyLib/Src/cJSON.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/CMyLib/Src/cJSON.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/CMyLib/Src/cJSON.c.obj"
 	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/CMyLib/Src/cJSON.c.obj -MF CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/CMyLib/Src/cJSON.c.obj.d -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/CMyLib/Src/cJSON.c.obj -c E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/CMyLib/Src/cJSON.c
 
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/CMyLib/Src/cJSON.c.i: cmake_force
@@ -100,7 +142,7 @@ CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/CMyLib/Src/cJSON.c.s: cmake_for
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/CMyLib/cMyLib.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/CMyLib/cMyLib.c.obj: E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/CMyLib/cMyLib.c
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/CMyLib/cMyLib.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/CMyLib/cMyLib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/CMyLib/cMyLib.c.obj"
 	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/CMyLib/cMyLib.c.obj -MF CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/CMyLib/cMyLib.c.obj.d -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/CMyLib/cMyLib.c.obj -c E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/CMyLib/cMyLib.c
 
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/CMyLib/cMyLib.c.i: cmake_force
@@ -114,7 +156,7 @@ CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/CMyLib/cMyLib.c.s: cmake_force
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Core/core_riscv.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Core/core_riscv.c.obj: E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Core/core_riscv.c
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Core/core_riscv.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Core/core_riscv.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Core/core_riscv.c.obj"
 	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Core/core_riscv.c.obj -MF CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Core/core_riscv.c.obj.d -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Core/core_riscv.c.obj -c E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Core/core_riscv.c
 
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Core/core_riscv.c.i: cmake_force
@@ -128,7 +170,7 @@ CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Core/core_riscv.c.s: cmake_forc
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Debug/debug.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Debug/debug.c.obj: E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Debug/debug.c
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Debug/debug.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Debug/debug.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Debug/debug.c.obj"
 	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Debug/debug.c.obj -MF CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Debug/debug.c.obj.d -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Debug/debug.c.obj -c E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Debug/debug.c
 
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Debug/debug.c.i: cmake_force
@@ -142,7 +184,7 @@ CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Debug/debug.c.s: cmake_force
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_adc.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_adc.c.obj: E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_adc.c
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_adc.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_adc.c.obj"
 	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_adc.c.obj -MF CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_adc.c.obj.d -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_adc.c.obj -c E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_adc.c
 
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_adc.c.i: cmake_force
@@ -156,7 +198,7 @@ CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_adc.c.s
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_bkp.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_bkp.c.obj: E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_bkp.c
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_bkp.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_bkp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_bkp.c.obj"
 	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_bkp.c.obj -MF CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_bkp.c.obj.d -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_bkp.c.obj -c E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_bkp.c
 
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_bkp.c.i: cmake_force
@@ -170,7 +212,7 @@ CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_bkp.c.s
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_can.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_can.c.obj: E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_can.c
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_can.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_can.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_can.c.obj"
 	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_can.c.obj -MF CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_can.c.obj.d -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_can.c.obj -c E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_can.c
 
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_can.c.i: cmake_force
@@ -184,7 +226,7 @@ CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_can.c.s
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_crc.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_crc.c.obj: E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_crc.c
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_crc.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_crc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_crc.c.obj"
 	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_crc.c.obj -MF CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_crc.c.obj.d -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_crc.c.obj -c E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_crc.c
 
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_crc.c.i: cmake_force
@@ -198,7 +240,7 @@ CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_crc.c.s
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dac.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dac.c.obj: E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_dac.c
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dac.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dac.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dac.c.obj"
 	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dac.c.obj -MF CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dac.c.obj.d -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dac.c.obj -c E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_dac.c
 
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dac.c.i: cmake_force
@@ -212,7 +254,7 @@ CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dac.c.s
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dbgmcu.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dbgmcu.c.obj: E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_dbgmcu.c
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dbgmcu.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dbgmcu.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dbgmcu.c.obj"
 	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dbgmcu.c.obj -MF CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dbgmcu.c.obj.d -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dbgmcu.c.obj -c E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_dbgmcu.c
 
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dbgmcu.c.i: cmake_force
@@ -226,7 +268,7 @@ CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dbgmcu.
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dma.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dma.c.obj: E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_dma.c
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dma.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dma.c.obj"
 	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dma.c.obj -MF CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dma.c.obj.d -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dma.c.obj -c E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_dma.c
 
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dma.c.i: cmake_force
@@ -240,7 +282,7 @@ CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dma.c.s
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dvp.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dvp.c.obj: E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_dvp.c
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dvp.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dvp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dvp.c.obj"
 	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dvp.c.obj -MF CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dvp.c.obj.d -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dvp.c.obj -c E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_dvp.c
 
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dvp.c.i: cmake_force
@@ -254,7 +296,7 @@ CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dvp.c.s
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_eth.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_eth.c.obj: E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_eth.c
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_eth.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_eth.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_eth.c.obj"
 	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_eth.c.obj -MF CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_eth.c.obj.d -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_eth.c.obj -c E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_eth.c
 
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_eth.c.i: cmake_force
@@ -268,7 +310,7 @@ CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_eth.c.s
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_exti.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_exti.c.obj: E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_exti.c
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_exti.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_exti.c.obj"
 	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_exti.c.obj -MF CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_exti.c.obj.d -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_exti.c.obj -c E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_exti.c
 
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_exti.c.i: cmake_force
@@ -282,7 +324,7 @@ CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_exti.c.
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_flash.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_flash.c.obj: E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_flash.c
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_flash.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_flash.c.obj"
 	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_flash.c.obj -MF CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_flash.c.obj.d -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_flash.c.obj -c E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_flash.c
 
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_flash.c.i: cmake_force
@@ -296,7 +338,7 @@ CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_flash.c
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_fsmc.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_fsmc.c.obj: E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_fsmc.c
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_fsmc.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_fsmc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_fsmc.c.obj"
 	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_fsmc.c.obj -MF CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_fsmc.c.obj.d -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_fsmc.c.obj -c E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_fsmc.c
 
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_fsmc.c.i: cmake_force
@@ -310,7 +352,7 @@ CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_fsmc.c.
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_gpio.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_gpio.c.obj: E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_gpio.c
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_gpio.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_gpio.c.obj"
 	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_gpio.c.obj -MF CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_gpio.c.obj.d -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_gpio.c.obj -c E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_gpio.c
 
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_gpio.c.i: cmake_force
@@ -324,7 +366,7 @@ CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_gpio.c.
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_i2c.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_i2c.c.obj: E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_i2c.c
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_i2c.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_i2c.c.obj"
 	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_i2c.c.obj -MF CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_i2c.c.obj.d -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_i2c.c.obj -c E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_i2c.c
 
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_i2c.c.i: cmake_force
@@ -338,7 +380,7 @@ CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_i2c.c.s
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_iwdg.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_iwdg.c.obj: E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_iwdg.c
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_iwdg.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_iwdg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_iwdg.c.obj"
 	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_iwdg.c.obj -MF CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_iwdg.c.obj.d -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_iwdg.c.obj -c E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_iwdg.c
 
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_iwdg.c.i: cmake_force
@@ -352,7 +394,7 @@ CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_iwdg.c.
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_misc.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_misc.c.obj: E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_misc.c
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_misc.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_misc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_misc.c.obj"
 	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_misc.c.obj -MF CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_misc.c.obj.d -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_misc.c.obj -c E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_misc.c
 
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_misc.c.i: cmake_force
@@ -366,7 +408,7 @@ CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_misc.c.
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_opa.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_opa.c.obj: E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_opa.c
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_opa.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_opa.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_opa.c.obj"
 	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_opa.c.obj -MF CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_opa.c.obj.d -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_opa.c.obj -c E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_opa.c
 
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_opa.c.i: cmake_force
@@ -380,7 +422,7 @@ CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_opa.c.s
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_pwr.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_pwr.c.obj: E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_pwr.c
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_pwr.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_pwr.c.obj"
 	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_pwr.c.obj -MF CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_pwr.c.obj.d -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_pwr.c.obj -c E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_pwr.c
 
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_pwr.c.i: cmake_force
@@ -394,7 +436,7 @@ CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_pwr.c.s
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rcc.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rcc.c.obj: E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_rcc.c
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rcc.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rcc.c.obj"
 	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rcc.c.obj -MF CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rcc.c.obj.d -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rcc.c.obj -c E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_rcc.c
 
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rcc.c.i: cmake_force
@@ -408,7 +450,7 @@ CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rcc.c.s
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rng.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rng.c.obj: E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_rng.c
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rng.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rng.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rng.c.obj"
 	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rng.c.obj -MF CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rng.c.obj.d -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rng.c.obj -c E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_rng.c
 
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rng.c.i: cmake_force
@@ -422,7 +464,7 @@ CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rng.c.s
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rtc.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rtc.c.obj: E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_rtc.c
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rtc.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rtc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rtc.c.obj"
 	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rtc.c.obj -MF CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rtc.c.obj.d -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rtc.c.obj -c E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_rtc.c
 
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rtc.c.i: cmake_force
@@ -436,7 +478,7 @@ CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rtc.c.s
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_sdio.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_sdio.c.obj: E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_sdio.c
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_sdio.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_sdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_sdio.c.obj"
 	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_sdio.c.obj -MF CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_sdio.c.obj.d -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_sdio.c.obj -c E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_sdio.c
 
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_sdio.c.i: cmake_force
@@ -450,7 +492,7 @@ CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_sdio.c.
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_spi.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_spi.c.obj: E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_spi.c
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_spi.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_spi.c.obj"
 	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_spi.c.obj -MF CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_spi.c.obj.d -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_spi.c.obj -c E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_spi.c
 
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_spi.c.i: cmake_force
@@ -464,7 +506,7 @@ CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_spi.c.s
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_tim.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_tim.c.obj: E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_tim.c
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_tim.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_tim.c.obj"
 	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_tim.c.obj -MF CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_tim.c.obj.d -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_tim.c.obj -c E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_tim.c
 
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_tim.c.i: cmake_force
@@ -478,7 +520,7 @@ CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_tim.c.s
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_usart.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_usart.c.obj: E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_usart.c
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_usart.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_usart.c.obj"
 	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_usart.c.obj -MF CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_usart.c.obj.d -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_usart.c.obj -c E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_usart.c
 
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_usart.c.i: cmake_force
@@ -492,7 +534,7 @@ CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_usart.c
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_wwdg.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_wwdg.c.obj: E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_wwdg.c
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_wwdg.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_wwdg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_wwdg.c.obj"
 	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_wwdg.c.obj -MF CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_wwdg.c.obj.d -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_wwdg.c.obj -c E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/src/ch32v30x_wwdg.c
 
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_wwdg.c.i: cmake_force
@@ -505,7 +547,7 @@ CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Peripheral/src/ch32v30x_wwdg.c.
 
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Startup/startup_ch32v30x_D8C.S.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Startup/startup_ch32v30x_D8C.S.obj: E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Startup/startup_ch32v30x_D8C.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building ASM object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Startup/startup_ch32v30x_D8C.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Startup/startup_ch32v30x_D8C.S.obj"
 	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Startup/startup_ch32v30x_D8C.S.obj -c E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Startup/startup_ch32v30x_D8C.S
 
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Startup/startup_ch32v30x_D8C.S.i: cmake_force
@@ -519,7 +561,7 @@ CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/Startup/startup_ch32v30x_D8C.S.
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/ch32v30x_it.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/ch32v30x_it.c.obj: E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/User/ch32v30x_it.c
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/ch32v30x_it.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/ch32v30x_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/ch32v30x_it.c.obj"
 	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/ch32v30x_it.c.obj -MF CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/ch32v30x_it.c.obj.d -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/ch32v30x_it.c.obj -c E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/User/ch32v30x_it.c
 
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/ch32v30x_it.c.i: cmake_force
@@ -533,7 +575,7 @@ CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/ch32v30x_it.c.s: cmake_for
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/main.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/main.c.obj: E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/User/main.c
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/main.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/main.c.obj"
 	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/main.c.obj -MF CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/main.c.obj.d -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/main.c.obj -c E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/User/main.c
 
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/main.c.i: cmake_force
@@ -547,7 +589,7 @@ CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/main.c.s: cmake_force
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/system_ch32v30x.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/flags.make
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/system_ch32v30x.c.obj: E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/User/system_ch32v30x.c
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/system_ch32v30x.c.obj: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/system_ch32v30x.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/system_ch32v30x.c.obj"
 	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/system_ch32v30x.c.obj -MF CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/system_ch32v30x.c.obj.d -o CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/system_ch32v30x.c.obj -c E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/User/system_ch32v30x.c
 
 CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/system_ch32v30x.c.i: cmake_force
@@ -560,6 +602,9 @@ CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/system_ch32v30x.c.s: cmake
 
 # Object files for target CH32V307VCT6_CMake_2024_11_27.elf
 CH32V307VCT6_CMake_2024_11_27_elf_OBJECTS = \
+"CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61P.c.obj" \
+"CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61PSdk.c.obj" \
+"CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/usart2.c.obj" \
 "CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/Led/led.c.obj" \
 "CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/CMyLib/Src/cJSON.c.obj" \
 "CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/CMyLib/cMyLib.c.obj" \
@@ -599,6 +644,9 @@ CH32V307VCT6_CMake_2024_11_27_elf_OBJECTS = \
 # External object files for target CH32V307VCT6_CMake_2024_11_27.elf
 CH32V307VCT6_CMake_2024_11_27_elf_EXTERNAL_OBJECTS =
 
+CH32V307VCT6_CMake_2024_11_27.elf: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61P.c.obj
+CH32V307VCT6_CMake_2024_11_27.elf: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61PSdk.c.obj
+CH32V307VCT6_CMake_2024_11_27.elf: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/usart2.c.obj
 CH32V307VCT6_CMake_2024_11_27.elf: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/Led/led.c.obj
 CH32V307VCT6_CMake_2024_11_27.elf: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/CMyLib/Src/cJSON.c.obj
 CH32V307VCT6_CMake_2024_11_27.elf: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/CMyLib/cMyLib.c.obj
@@ -635,8 +683,8 @@ CH32V307VCT6_CMake_2024_11_27.elf: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.
 CH32V307VCT6_CMake_2024_11_27.elf: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/main.c.obj
 CH32V307VCT6_CMake_2024_11_27.elf: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/system_ch32v30x.c.obj
 CH32V307VCT6_CMake_2024_11_27.elf: CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking C executable CH32V307VCT6_CMake_2024_11_27.elf"
-	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" -march=rv32imafc -mabi=ilp32f -nostartfiles -Xlinker --gc-sections -Wl,--print-memory-usage -Wl,-Map,CH32V307VCT6_CMake_2024_11_27.map --specs=nano.specs --specs=nosys.specs -T E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Ld/Link.ld $(CH32V307VCT6_CMake_2024_11_27_elf_OBJECTS) $(CH32V307VCT6_CMake_2024_11_27_elf_EXTERNAL_OBJECTS) -o CH32V307VCT6_CMake_2024_11_27.elf  -lm
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Linking C executable CH32V307VCT6_CMake_2024_11_27.elf"
+	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-gcc.exe" -march=rv32imafc -mabi=ilp32f -nostartfiles -Xlinker --gc-sections -Wl,--print-memory-usage -Wl,-Map,CH32V307VCT6_CMake_2024_11_27.map --specs=nano.specs --specs=nosys.specs -T E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Ld/Link.ld $(CH32V307VCT6_CMake_2024_11_27_elf_OBJECTS) $(CH32V307VCT6_CMake_2024_11_27_elf_EXTERNAL_OBJECTS) -o CH32V307VCT6_CMake_2024_11_27.elf  -lm -lprintfloat
 	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-objcopy.exe" -Oihex E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CH32V307VCT6_CMake_2024_11_27.elf E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CH32V307VCT6_CMake_2024_11_27.hex
 	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-objcopy.exe" -Obinary E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CH32V307VCT6_CMake_2024_11_27.elf E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CH32V307VCT6_CMake_2024_11_27.bin
 	"E:/App_Windows/MounRiver_Studio/Base_File/MounRiver_Studio/toolchain/RISC-V Embedded GCC/bin/riscv-none-embed-objdump.exe" --all-headers --demangle --disassemble E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CH32V307VCT6_CMake_2024_11_27.elf > E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/build/CH32V307VCT6_CMake_2024_11_27.lst

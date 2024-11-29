@@ -15,6 +15,7 @@ set(CMAKE_ASM_COMPILER_ID "GNU")
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App"
+  "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App/Drivers/JY61P"
   "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App/Drivers/Led"
   "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App/Drivers"
   "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/CMyLib"
@@ -28,6 +29,9 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App/Drivers/JY61P/JY61P.c" "CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61P.c.obj" "gcc" "CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61P.c.obj.d"
+  "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App/Drivers/JY61P/JY61PSdk.c" "CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61PSdk.c.obj" "gcc" "CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61PSdk.c.obj.d"
+  "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App/Drivers/JY61P/usart2.c" "CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/usart2.c.obj" "gcc" "CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/usart2.c.obj.d"
   "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App/Drivers/Led/led.c" "CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/Led/led.c.obj" "gcc" "CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/Led/led.c.obj.d"
   "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/CMyLib/Src/cJSON.c" "CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/CMyLib/Src/cJSON.c.obj" "gcc" "CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/CMyLib/Src/cJSON.c.obj.d"
   "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/CMyLib/cMyLib.c" "CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/CMyLib/cMyLib.c.obj" "gcc" "CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/CMyLib/cMyLib.c.obj.d"

@@ -13,6 +13,7 @@ extern "C"
 {
 #endif
 
+#include "JY61P.h"
 #include "led.h"
 
 #ifdef __cplusplus

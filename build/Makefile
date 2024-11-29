@@ -129,6 +129,78 @@ CH32V307VCT6_CMake_2024_11_27.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build
 .PHONY : CH32V307VCT6_CMake_2024_11_27.elf/fast
 
+App/Drivers/JY61P/JY61P.obj: App/Drivers/JY61P/JY61P.c.obj
+.PHONY : App/Drivers/JY61P/JY61P.obj
+
+# target to build an object file
+App/Drivers/JY61P/JY61P.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61P.c.obj
+.PHONY : App/Drivers/JY61P/JY61P.c.obj
+
+App/Drivers/JY61P/JY61P.i: App/Drivers/JY61P/JY61P.c.i
+.PHONY : App/Drivers/JY61P/JY61P.i
+
+# target to preprocess a source file
+App/Drivers/JY61P/JY61P.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61P.c.i
+.PHONY : App/Drivers/JY61P/JY61P.c.i
+
+App/Drivers/JY61P/JY61P.s: App/Drivers/JY61P/JY61P.c.s
+.PHONY : App/Drivers/JY61P/JY61P.s
+
+# target to generate assembly for a file
+App/Drivers/JY61P/JY61P.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61P.c.s
+.PHONY : App/Drivers/JY61P/JY61P.c.s
+
+App/Drivers/JY61P/JY61PSdk.obj: App/Drivers/JY61P/JY61PSdk.c.obj
+.PHONY : App/Drivers/JY61P/JY61PSdk.obj
+
+# target to build an object file
+App/Drivers/JY61P/JY61PSdk.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61PSdk.c.obj
+.PHONY : App/Drivers/JY61P/JY61PSdk.c.obj
+
+App/Drivers/JY61P/JY61PSdk.i: App/Drivers/JY61P/JY61PSdk.c.i
+.PHONY : App/Drivers/JY61P/JY61PSdk.i
+
+# target to preprocess a source file
+App/Drivers/JY61P/JY61PSdk.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61PSdk.c.i
+.PHONY : App/Drivers/JY61P/JY61PSdk.c.i
+
+App/Drivers/JY61P/JY61PSdk.s: App/Drivers/JY61P/JY61PSdk.c.s
+.PHONY : App/Drivers/JY61P/JY61PSdk.s
+
+# target to generate assembly for a file
+App/Drivers/JY61P/JY61PSdk.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61PSdk.c.s
+.PHONY : App/Drivers/JY61P/JY61PSdk.c.s
+
+App/Drivers/JY61P/usart2.obj: App/Drivers/JY61P/usart2.c.obj
+.PHONY : App/Drivers/JY61P/usart2.obj
+
+# target to build an object file
+App/Drivers/JY61P/usart2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/usart2.c.obj
+.PHONY : App/Drivers/JY61P/usart2.c.obj
+
+App/Drivers/JY61P/usart2.i: App/Drivers/JY61P/usart2.c.i
+.PHONY : App/Drivers/JY61P/usart2.i
+
+# target to preprocess a source file
+App/Drivers/JY61P/usart2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/usart2.c.i
+.PHONY : App/Drivers/JY61P/usart2.c.i
+
+App/Drivers/JY61P/usart2.s: App/Drivers/JY61P/usart2.c.s
+.PHONY : App/Drivers/JY61P/usart2.s
+
+# target to generate assembly for a file
+App/Drivers/JY61P/usart2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/usart2.c.s
+.PHONY : App/Drivers/JY61P/usart2.c.s
+
 App/Drivers/Led/led.obj: App/Drivers/Led/led.c.obj
 .PHONY : App/Drivers/Led/led.obj
 
@@ -962,6 +1034,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CH32V307VCT6_CMake_2024_11_27.elf"
+	@echo "... App/Drivers/JY61P/JY61P.obj"
+	@echo "... App/Drivers/JY61P/JY61P.i"
+	@echo "... App/Drivers/JY61P/JY61P.s"
+	@echo "... App/Drivers/JY61P/JY61PSdk.obj"
+	@echo "... App/Drivers/JY61P/JY61PSdk.i"
+	@echo "... App/Drivers/JY61P/JY61PSdk.s"
+	@echo "... App/Drivers/JY61P/usart2.obj"
+	@echo "... App/Drivers/JY61P/usart2.i"
+	@echo "... App/Drivers/JY61P/usart2.s"
 	@echo "... App/Drivers/Led/led.obj"
 	@echo "... App/Drivers/Led/led.i"
 	@echo "... App/Drivers/Led/led.s"

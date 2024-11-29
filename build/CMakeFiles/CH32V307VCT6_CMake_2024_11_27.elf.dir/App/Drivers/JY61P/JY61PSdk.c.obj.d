@@ -1,6 +1,6 @@
-CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/main.c.obj: \
- E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/User/main.c \
- E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App/constHead.h \
+CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/App/Drivers/JY61P/JY61PSdk.c.obj: \
+ E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App/Drivers/JY61P/JY61PSdk.c \
+ E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App/Drivers/JY61P/JY61PSdk.h \
  E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/CMyLib/Define/define.h \
  e:\app_windows\mounriver_studio\base_file\mounriver_studio\toolchain\risc-v\ embedded\ gcc\riscv-none-embed\include\stdio.h \
  e:\app_windows\mounriver_studio\base_file\mounriver_studio\toolchain\risc-v\ embedded\ gcc\riscv-none-embed\include\_ansi.h \
@@ -76,10 +76,4 @@ CMakeFiles/CH32V307VCT6_CMake_2024_11_27.elf.dir/User/main.c.obj: \
  E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/inc/ch32v30x_wwdg.h \
  E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/User/ch32v30x_it.h \
  E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/Peripheral/inc/ch32v30x_misc.h \
- E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App/Drivers/drivers.h \
- E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App/Drivers/JY61P/JY61P.h \
- E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App/Drivers/JY61P/JY61PSdk.h \
- E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App/Drivers/JY61P/JY61PReg.h \
- E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App/Drivers/JY61P/usart2.h \
- E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/CMyLib/Inc/USART.h \
- E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App/Drivers/Led/led.h
+ E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_2024_11_27/App/Drivers/JY61P/JY61PReg.h

@@ -11,7 +11,7 @@ extern "C"
 #define TxSize(TxBuffer)     (size(TxBuffer))
 #define size(a)    (sizeof(a) / sizeof(*(a)))
 // ring buffer size
-#define RING_BUFFER_LEN     (1024u)
+#define RING_BUFFER_LEN     (2048u)
 
 // The length of a single buffer used by DMA
 #define BUFFER_SIZE(buffer)			sizeof(buffer)

@@ -64,6 +64,7 @@ add_compile_options(-Wall)
 
 # 头文件路径
 include_directories(App
+                    App/Drivers/JY61P
                     App/Drivers/Led
                     App/Drivers
                     CMyLib
@@ -79,6 +80,7 @@ include_directories(App
 
 # 源码文件
 file(GLOB_RECURSE SOURCES 
+                "App/Drivers/JY61P/*.c"
                 "App/Drivers/Led/*.c"
                 "CMyLib/*.c" 
                 "CMyLib/Define/*.c"
@@ -106,7 +108,7 @@ add_link_options(-T ${LINKER_SCRIPT})
 add_executable(${PROJECT_NAME}.elf ${SOURCES} ${LINKER_SCRIPT})
 
 # 链接静态库
-# target_link_libraries(${PROJECT_NAME}.elf printfloat)
+target_link_libraries(${PROJECT_NAME}.elf -lprintfloat)
 
 # 输出hex和bin
 set(HEX_FILE ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.hex)
